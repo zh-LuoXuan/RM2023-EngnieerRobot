@@ -1,0 +1,56 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.38.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Jiayv Jiayv2333, fengbao, LIC=QF82M-XYW9C-9U54U-SI64U-WMZ30-TQ9N0
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.38.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.38.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      CMSIS_AGDI.dll V1.33.15.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+C:\Users\刘超凡\Desktop\深圳\主板\Ver.2023.08.05. 04 云台加阻尼，底盘加入防急转侧倾 - 副本\Program\User\Template.uvprojx
+Project File Date:  08/04/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Template'
+compiling ADRC_user.c...
+compiling ADRC_core.c...
+compiling gimbal_task.c...
+..\Task\Gimbal\gimbal_task.c(80): warning:  #550-D: variable "TickCount"  was set but never used
+  	static portTickType TickCount; 
+..\Task\Gimbal\gimbal_task.c(504): warning:  #177-D: function "Turn_half_gimbal"  was declared but never referenced
+  static void Turn_half_gimbal(GimbalCtrl_t* headFresh)
+..\Task\Gimbal\gimbal_task.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=31720 RO-data=568 RW-data=456 ZI-data=24896  
+".\Objects\zero.axf" - 0 Error(s), 2 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.10.0.pack
+                Keil.STM32F4xx_DFP.2.10.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  C:/Keil_v5/Pack/Keil/STM32F4xx_DFP/2.10.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
